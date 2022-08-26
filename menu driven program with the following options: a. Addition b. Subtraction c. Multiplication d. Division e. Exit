@@ -1,0 +1,54 @@
+#include<stdio.h>
+int main()
+
+{
+    int a,b,x;
+while(1){
+    printf("\n 1.addition");
+    printf("\n 2.subtraction");
+    printf("\n 3.multiplication");
+    printf("\n 4.division");
+    printf("\n 5.exit");
+
+    printf("enter your choice");
+    scanf("%d",&x);
+
+ switch(x)
+ {
+ case(1):
+     printf("enter your number");
+    scanf("%d%d",&a,&b);
+    printf("sum is %d",a+b);
+    break;
+
+   case(2):
+     printf("enter your number");
+     scanf("%d%d",&a,&b);
+     printf("subtraction is %d",a-b);
+      break;
+
+   case(3):
+     printf("enter your number");
+     scanf("%d%d",&a,&b);
+     printf("multiplication is %d",a*b);
+     break;
+
+   case(4):
+     printf("enter your number");
+     scanf("%d%d",&a,&b);
+     printf("division is %d",a/b);
+     break;
+
+   case(5):
+     break;
+   default:
+    printf("anonymous");
+
+   }
+   if(x==5)
+    break;
+  }
+
+  printf("\n");
+  return 0;
+}
