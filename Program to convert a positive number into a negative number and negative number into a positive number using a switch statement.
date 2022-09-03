@@ -14,7 +14,7 @@ scanf("%d",&num);
         a=-num;
     break;
     default:
-        printf("annonymos");
+        printf("anonymos");
  }
 
  printf("%d",a);
