@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+
+{
+    int num,a;
+
+printf("enter your number");
+scanf("%d",&num);
+
+
+ switch(num<0 || num>0)
+ {
+    case 1:
+        a=-num;
+    break;
+    default:
+        printf("annonymos");
+ }
+
+ printf("%d",a);
+    return 0;
+}
