@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+
+{
+    int num;
+
+printf("enter your number");
+scanf("%d",&num);
+
+
+ switch(num%2==0)
+ {
+    case 1:
+        num=num-1;
+    break;
+    case 0:
+        num=num-2;
+        break;
+        
+    default:
+        printf("anonymos: ");
+        break;
+ }
+
+ printf("%d",num);
+    return 0;
+}
+
